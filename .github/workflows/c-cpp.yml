@@ -1,0 +1,17 @@
+name: hello word
+
+'on': push
+    
+jobs:
+  my-iob:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - name: my-step
+      run: echo "hello word"
+   
+   
+    
+
