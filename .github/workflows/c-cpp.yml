@@ -12,16 +12,6 @@ jobs:
     - name: my-step
       run: echo "hello word"
    
-    #include <stdio.h>
-
-
-    run: result = 2 + 3;
-    
    
-        printf("Phép cộng 2 + 3 bằng 5");
-        return 0;
-     else 
-        printf("Phép cộng 2 + 3 không bằng 5");
-        return 1;
     
 
