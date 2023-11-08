@@ -1,16 +1,21 @@
 name: hello word
 
 'on': push
-    
+    - '!README.md'
+    - '!docs/***'
+    - '**.js'
 jobs:
   my-iob:
 
     runs-on: ubuntu-latest
 
     steps:
-    
-    - name: my-step
-      run: echo "hello word"
+    - ues: action/checkout@v3
+      name: checkout code from GitHub
+    - run: npm install
+      name: Install npm package
+    - run: node app.js
+      name: Run Node application
    
    
     
