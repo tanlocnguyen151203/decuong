@@ -9,17 +9,15 @@ on:
     branches: [main]
 jobs:
   my-iob:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-      name: checkout code from GitHub
-    - run: npm install
-      name: Install npm package
-    - run: node app.js
-      name: Run Node application
-   
+      - uses: actions/checkout@v3
+        name: checkout code from GitHub
+      - run: npm install
+        name: Install npm package
+      - run: node app.js
+        name: Run Node application
+    
    
     
 
