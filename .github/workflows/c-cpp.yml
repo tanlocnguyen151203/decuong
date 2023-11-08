@@ -1,9 +1,11 @@
 name: hello word
 
-'on': push
-  paths:
+on: 
+  push:
+
+    paths:
     - '!README.md'
-    - '!docs/***'
+    - '!docs/**'
     - '**.js'
 jobs:
   my-iob:
