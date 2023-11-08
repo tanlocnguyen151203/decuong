@@ -1,6 +1,7 @@
 name: hello word
 
 'on': push
+  paths
     - '!README.md'
     - '!docs/***'
     - '**.js'
