@@ -6,4 +6,8 @@ function tong(a, b) {
         console.log(  "số nhạp vào không phải là số");
     return c;
 }
+function tru(a, b) {
+     c = a - b;
+}
 exports.tong = tong;
+expects.tru = tru;

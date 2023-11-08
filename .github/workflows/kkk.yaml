@@ -5,7 +5,8 @@ on:
     paths:
     - '!README.md'
     - '!docs/**'
-    - '**.js'
+    - '!js'
+    - '**.cpp'
     branches: [main]
 jobs:
   my-iob:
