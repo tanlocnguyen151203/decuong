@@ -1,4 +1,4 @@
 const util = require( 'util');
-const { tong} = require('./ukm');
+const { tong} = require('../github/ukm');
 var a =10; var b = '30';
 console.log(util.format('tổng %d+%d=%d',  a,b, tong(a, b)))
