@@ -10,4 +10,4 @@ function tru(a, b) {
      c = a - b;
 }
 exports.tong = tong;
-expects.tru = tru;
+exports.tru = tru;
