@@ -1,6 +1,6 @@
 name: hello word
 
-on: 
+'on': 
   push:
     paths:
     - '!README.md'
