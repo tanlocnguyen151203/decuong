@@ -8,6 +8,7 @@ function tong(a, b) {
 }
 function tru(a, b) {
      c = a - b;
+     return c;
 }
 exports.tong = tong;
 exports.tru = tru;
