@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - ues: action/checkout@v3
+    - uses: action/checkout@v3
       name: checkout code from GitHub
     - run: npm install
       name: Install npm package
