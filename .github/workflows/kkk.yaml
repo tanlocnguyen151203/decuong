@@ -6,7 +6,7 @@ on:
     - '!README.md'
     - '!docs/**'
     - '**js'
-    - '**.cpp'
+  
     branches: [main]
 jobs:
   my-iob:
