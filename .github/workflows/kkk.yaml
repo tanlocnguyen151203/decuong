@@ -17,8 +17,3 @@ jobs:
         name: Install npm package
       - run: node app.js
         name: Run Node application
-    
-   
-    
-
-      
