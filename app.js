@@ -1,7 +1,6 @@
 const util = require( 'util');
 const { tong, tru } = require('./ukm');
 
-<<<<<<< HEAD
 var a ='40'; var b = 30;
 =======
 var a ='40'; var b = 50;
