@@ -15,4 +15,4 @@ jobs:
       - name: install npm package
         run: npm install
       - name: run node pheptoanlicaction
-        run: node pheptoan.js
+        run: node pheptoan.js 

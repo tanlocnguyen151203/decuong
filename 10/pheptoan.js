@@ -1,25 +1,27 @@
 const PhepToan = {
-    
     tong: function(a, b) {
         a = parseFloat(a);
         b = parseFloat(b);
-        c = a + b;
-        if (isNAN(c))
-        console.log("so nhap vao khong phai la so");
+        let c = a + b;
+        if (isNaN(c)) {
+            console.log("Số nhập vào không phải là số");
+        }
         return c;
     },
     hieu: function(a, b) {
-        c = a - b;
+        let c = a - b;
+        return c;
     },
     tich: function(a, b) {
-        c = a * b;
+        let c = a * b;
+        return c;
     },
     thuong: function(a, b) {
         if (b === 0) {
             return "Không thể chia cho 0";
         } else {
-            c = a / b;
+            let c = a / b;
+            return c;
         }
     }
-
 };
