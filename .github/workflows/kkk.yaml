@@ -16,6 +16,6 @@ jobs:
         name: checkout code from GitHub
       - run: npm install
         name: Install npm package
-      - run: node app.js
+      - run: node bai.js
         name: Run Node application
         
