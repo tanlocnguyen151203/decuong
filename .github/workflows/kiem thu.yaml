@@ -10,9 +10,10 @@ jobs:
   kiemthu-job:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code from GitHub
-        uses: actions/checkout@v3
-      - name: install npm package
-        run: npm install
-      - name: run node pheptoanlicaction
-        run: node pheptoan.js 
+      - uses: actions/checkout@v3
+        name: checkout code from GitHub
+      - run: npm install
+        name: Install npm package
+      - run: node kiemtrapheptoan.js
+        name: Run Node kiemtrapheptoanlication
+        
