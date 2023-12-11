@@ -1,5 +1,5 @@
 // __tests__/sum.test.js
-const sum = require('../sum');
+const sum = require('./sum');
 
 const a = 3;
 const b = 5;
