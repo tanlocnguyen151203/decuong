@@ -1,0 +1,29 @@
+name: kiemthu
+on:
+  push:
+    paths:
+      - 'README.md'
+      - '!docs/**'
+      - '**.java' # Sẽ chỉ chạy khi có thay đổi trong các file Java
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      name: checkout code from GitHub
+
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11' # Sử dụng JDK 11
+
+    - name: Compile Java code
+      run: javac -d ./bin/*tra.java # Biên dịch các file Java trong thư mục src và đặt các file class vào thư mục bin
+
+    - name: Run Java application
+      run: java -cp ./bin/ PhepToan # Thay YourMainClass bằng tên class chứa hàm main của ứng dụng Java
+
+
+      kiểm tra 2 đoạn mã có liên kết với nhau hay không

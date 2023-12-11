@@ -25,3 +25,4 @@ const PhepToan = {
         }
     }
 };
+module.exports = PhepToan;
