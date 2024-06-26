@@ -14,4 +14,4 @@
 
 ## Giảng viên hướng dẫn
 
-- ThS. Nguyễn Bảo Ân
+- TS. Nguyễn Bảo Ân
